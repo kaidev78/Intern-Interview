@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="item_category">Item category:</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="purchased">Purchased</string>
+    <string name="cost">Cost</string>
+    <string name="save">Save</string>
+    <string name="textview">TextView</string>
+    <string name="hide_detail">Hide Detail</string>
+    <string name="edit">Edit</string>
+    <string name="categorypicture">CategoryPicture</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="delete">Delete</string>
+    <string name="sort_by">Sort By:</string>
+    <string name="sort_order">Sort Order:</string>
+    <string name="price">price</string>
+    <string name="purchased_status">purchased status</string>
+    <string name="ascending">ascending</string>
+    <string name="descending">descending</string>
+</resources>
