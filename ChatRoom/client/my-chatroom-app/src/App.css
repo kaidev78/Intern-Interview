@@ -1,0 +1,113 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 100%;
+}
+
+.App {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas:
+  "r m m m m m m"
+  "r m m m m m m"
+  "r m m m m m m"
+  "r m m m m m m"
+  "r m m m m m m"
+  "n f f f f f f";
+  background-color: wheat;
+}
+
+.newRoomForm{
+  border-style: solid;
+  grid-area: n;
+  margin-right: 5px;
+  margin-top: 2.5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: palegreen;
+}
+
+.messageList{
+  border-style: solid;
+  grid-area: m;
+  margin-left: 5px;
+  margin-bottom: 2.5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.roomList{
+  border-style: solid;
+  grid-area: r;
+  margin-right: 5px;
+  margin-bottom: 2.5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: thistle;
+}
+
+.SendMessageForm{
+  border-style: solid;
+  grid-area: f;
+  margin-left: 5px;
+  margin-top: 2.5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.createRoomForm{
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nameForm{
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.createRoomForm .createRoomTitle{
+  text-align: center;
+  color: white
+}
+
+.createRoomForm .createRoomInput{
+}
+
+.createRoomForm .createButton{
+}
+
+.room{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.roomtitle{
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.selectRoomAlarm{
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+  color:red
+}
