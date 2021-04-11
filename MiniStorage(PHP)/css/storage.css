@@ -1,0 +1,50 @@
+body {
+    background: rgba(246, 241, 209);
+}
+
+.file_list {
+    margin: auto;
+    width: 35%;
+    height: 50%;
+    /* padding-left: 10%;
+    padding-top: 5%; */
+    margin-top: 5%;
+    border:  solid black;
+}
+
+.upload_box{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-left: 12.5%;
+    padding-top: 2.5%;
+}
+/* .file_list ul {
+    padding: 0; 
+    margin: 0;
+    display: inline;
+} */
+
+.file_list ul li{
+    /* margin: 5%;
+    width: 200px;
+    height: 100px;
+    background: #80d5a6;
+    border: 5px dashed mediumseagreen;
+    box-shadow: 0 0 0 2.5px #226741, 0 0 0 12.5px #fff, inset 0 0 0 2.5px #226741, 0 5px 10px 15px rgba(0, 0, 0, 0.5), inset 0 0 0 6px #fff, inset 0 0 100vw 100vw beige;
+    color: mediumseagreen;
+    font-family: Marcellus, serif;
+    text-shadow: 0 2px #fff;
+    text-align: center;
+    float: left;
+    word-wrap: break-word; */
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin: 2.5%;
+    /* border:  solid black; */
+  }
+
+  .file_list ul li button{
+    margin-left: 100%;
+  }
